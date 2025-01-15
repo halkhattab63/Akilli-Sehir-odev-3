@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package arayuz;
 
 import javax.swing.JOptionPane;
@@ -9,9 +6,7 @@ import javax.swing.JOptionPane;
 
 public class Main extends javax.swing.JFrame {
 
-       /**
-     * Creates new form Main
-     */
+
     public Main() {
         initComponents();
     }

@@ -1,17 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package yonetim;
 
 import java.util.Map;
 import java.util.HashMap;
 import kisiler.Yonetici;
 
-/**
- *
- * @author Hayan Alkhattab 
- */
 public class TrafikYonetimi implements Yonetimler{
     public static boolean uyari_1;
     public static boolean uyari_2;

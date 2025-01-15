@@ -42,10 +42,10 @@ public class HizmetleriIzleme extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        // تخصيص الزر
+    
         jButton5.setText("Geri");
-        jButton5.setBackground(new java.awt.Color(255, 102, 102)); // تخصيص اللون
-        jButton5.setFont(new java.awt.Font("Segoe UI", 1, 16)); // تخصيص الخط
+        jButton5.setBackground(new java.awt.Color(255, 102, 102));
+        jButton5.setFont(new java.awt.Font("Segoe UI", 1, 16));
         jButton5.setFocusable(false);
         jButton5.setPreferredSize(new java.awt.Dimension(200, 50));
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -207,7 +207,7 @@ public class HizmetleriIzleme extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        // العودة إلى نافذة ArayuzYonetici
+   // ArayuzYonetici penceresine geri dön
         ArayuzYonetici yonetici = new ArayuzYonetici();
         yonetici.setVisible(true);
         setVisible(false);

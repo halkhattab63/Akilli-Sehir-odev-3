@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package arayuz;
 
 import arayuz.yoneticiFonksyonlari.*;
@@ -14,9 +11,7 @@ import kisiler.Yonetici;
 
 public class ArayuzYonetici extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Yonetici
-     */
+
     public ArayuzYonetici() {
         initComponents();
     }
@@ -38,12 +33,12 @@ public class ArayuzYonetici extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Yönetici Arayüzü");
 
-        // Customize button appearances
+
         varEkGu.setText("Varlık ekleme/güncelleme");
-        varEkGu.setBackground(new java.awt.Color(70, 130, 180)); // Customize color
-        varEkGu.setFont(new java.awt.Font("Segoe UI", 1, 16)); // Custom font
+        varEkGu.setBackground(new java.awt.Color(70, 130, 180)); // Rengi özelleştir
+        varEkGu.setFont(new java.awt.Font("Segoe UI", 1, 16)); // Özel yazı tipi
         varEkGu.setFocusable(false);
-        varEkGu.setPreferredSize(new java.awt.Dimension(200, 50)); // Adjust button size
+        varEkGu.setPreferredSize(new java.awt.Dimension(200, 50)); // Buton boyutunu ayarla
         varEkGu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 varEkGuActionPerformed(evt);
@@ -51,10 +46,10 @@ public class ArayuzYonetici extends javax.swing.JFrame {
         });
 
         hizmetIzle.setText("Hizmetleri izleme");
-        hizmetIzle.setBackground(new java.awt.Color(34, 193, 195)); // Customize color
-        hizmetIzle.setFont(new java.awt.Font("Segoe UI", 1, 16)); // Custom font
+        hizmetIzle.setBackground(new java.awt.Color(34, 193, 195)); // Rengi özelleştir
+        hizmetIzle.setFont(new java.awt.Font("Segoe UI", 1, 16)); // Özel yazı tipi
         hizmetIzle.setFocusable(false);
-        hizmetIzle.setPreferredSize(new java.awt.Dimension(200, 50)); // Adjust button size
+        hizmetIzle.setPreferredSize(new java.awt.Dimension(200, 50)); // Buton boyutunu ayarla
         hizmetIzle.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 hizmetIzleActionPerformed(evt);
@@ -62,10 +57,10 @@ public class ArayuzYonetici extends javax.swing.JFrame {
         });
 
         uyari.setText("Uyarılar");
-        uyari.setBackground(new java.awt.Color(255, 87, 34)); // Customize color
-        uyari.setFont(new java.awt.Font("Segoe UI", 1, 16)); // Custom font
+        uyari.setBackground(new java.awt.Color(255, 87, 34)); // Rengi özelleştir
+        uyari.setFont(new java.awt.Font("Segoe UI", 1, 16)); // Özel yazı tipi
         uyari.setFocusable(false);
-        uyari.setPreferredSize(new java.awt.Dimension(200, 50)); // Adjust button size
+        uyari.setPreferredSize(new java.awt.Dimension(200, 50)); // Buton boyutunu ayarla
         uyari.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 uyariActionPerformed(evt);
@@ -73,10 +68,10 @@ public class ArayuzYonetici extends javax.swing.JFrame {
         });
 
         jButton5.setText("Çıkış");
-        jButton5.setBackground(new java.awt.Color(255, 204, 204)); // Customize color
-        jButton5.setFont(new java.awt.Font("Segoe UI", 1, 16)); // Custom font
+        jButton5.setBackground(new java.awt.Color(255, 204, 204)); // Rengi özelleştir
+        jButton5.setFont(new java.awt.Font("Segoe UI", 1, 16)); // Özel yazı tipi
         jButton5.setFocusable(false);
-        jButton5.setPreferredSize(new java.awt.Dimension(200, 50)); // Adjust button size
+        jButton5.setPreferredSize(new java.awt.Dimension(200, 50)); // Buton boyutunu ayarla
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
@@ -118,14 +113,14 @@ public class ArayuzYonetici extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void varEkGuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_varEkGuActionPerformed
-        // Open the entity update screen
+        // Varlık güncelleme ekranını aç
         VarlikEkGu varlikEkGu = new VarlikEkGu();
         varlikEkGu.setVisible(true);
         setVisible(false);
     }//GEN-LAST:event_varEkGuActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        // Confirm exit action
+        // Çıkış işlemini onayla
         int response = JOptionPane.showConfirmDialog(
                 this,
                 "Çıkmak istediğinizden emin misiniz?",
@@ -135,7 +130,7 @@ public class ArayuzYonetici extends javax.swing.JFrame {
             );
 
             if (response == JOptionPane.YES_OPTION) {
-                // Close the application
+                // Uygulamayı kapat
                 System.exit(0);
             }
     }//GEN-LAST:event_jButton5ActionPerformed

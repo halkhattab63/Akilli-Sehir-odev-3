@@ -1,16 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package yonetim;
 
 import kisiler.Yonetici;
 import varliklar.*;
 
-/**
- *
- * @author Hayan Alkhattab 
- */
 public class EnerjiYonetimi implements Yonetimler{
     private boolean uyari = false;
 

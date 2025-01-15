@@ -15,7 +15,7 @@ public class EnerjiKaynaklariListesi extends javax.swing.JFrame {
 
     DefaultTableModel kaynakListesiModel = new DefaultTableModel();
     ArrayList<Enerjikaynagi> enerjikaynaklari = Varlik.getEnerjiKaynaklar();
-    private JTable kaynakList; // تعريف الجدول هنا
+    private JTable kaynakList; // Tablonun burada tanımlanması
 
     public EnerjiKaynaklariListesi() {
         initComponents();

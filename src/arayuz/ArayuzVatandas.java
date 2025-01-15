@@ -5,9 +5,6 @@ import yonetim.SuYonetimi;
 
 public class ArayuzVatandas extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Vatandas
-     */
     public ArayuzVatandas() {
         initComponents();
     }
@@ -29,12 +26,12 @@ public class ArayuzVatandas extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Vatandaş Arayüzü");
 
-        // Customize button appearances
+   
         trafik.setText("Trafik Durumu");
-        trafik.setBackground(new java.awt.Color(70, 130, 180)); // Customize color
-        trafik.setFont(new java.awt.Font("Segoe UI", 1, 16)); // Custom font
+        trafik.setBackground(new java.awt.Color(70, 130, 180)); 
+        trafik.setFont(new java.awt.Font("Segoe UI", 1, 16)); 
         trafik.setFocusable(false);
-        trafik.setPreferredSize(new java.awt.Dimension(200, 50)); // Adjust button size
+        trafik.setPreferredSize(new java.awt.Dimension(200, 50)); 
         trafik.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 trafikActionPerformed(evt);
@@ -42,10 +39,10 @@ public class ArayuzVatandas extends javax.swing.JFrame {
         });
 
         enerji.setText("Enerji Durumu");
-        enerji.setBackground(new java.awt.Color(34, 193, 195)); // Customize color
-        enerji.setFont(new java.awt.Font("Segoe UI", 1, 16)); // Custom font
+        enerji.setBackground(new java.awt.Color(34, 193, 195)); 
+        enerji.setFont(new java.awt.Font("Segoe UI", 1, 16)); 
         enerji.setFocusable(false);
-        enerji.setPreferredSize(new java.awt.Dimension(200, 50)); // Adjust button size
+        enerji.setPreferredSize(new java.awt.Dimension(200, 50)); 
         enerji.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 enerjiActionPerformed(evt);
@@ -53,10 +50,10 @@ public class ArayuzVatandas extends javax.swing.JFrame {
         });
 
         suRez.setText("Su Durumu");
-        suRez.setBackground(new java.awt.Color(255, 87, 34)); // Customize color
-        suRez.setFont(new java.awt.Font("Segoe UI", 1, 16)); // Custom font
+        suRez.setBackground(new java.awt.Color(255, 87, 34)); 
+        suRez.setFont(new java.awt.Font("Segoe UI", 1, 16)); 
         suRez.setFocusable(false);
-        suRez.setPreferredSize(new java.awt.Dimension(200, 50)); // Adjust button size
+        suRez.setPreferredSize(new java.awt.Dimension(200, 50)); 
         suRez.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 suRezActionPerformed(evt);
@@ -64,10 +61,10 @@ public class ArayuzVatandas extends javax.swing.JFrame {
         });
 
         jButton5.setText("Geri");
-        jButton5.setBackground(new java.awt.Color(255, 204, 204)); // Customize color
-        jButton5.setFont(new java.awt.Font("Segoe UI", 1, 16)); // Custom font
+        jButton5.setBackground(new java.awt.Color(255, 204, 204)); 
+        jButton5.setFont(new java.awt.Font("Segoe UI", 1, 16)); 
         jButton5.setFocusable(false);
-        jButton5.setPreferredSize(new java.awt.Dimension(200, 50)); // Adjust button size
+        jButton5.setPreferredSize(new java.awt.Dimension(200, 50)); 
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
@@ -135,11 +132,7 @@ public class ArayuzVatandas extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
+
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {

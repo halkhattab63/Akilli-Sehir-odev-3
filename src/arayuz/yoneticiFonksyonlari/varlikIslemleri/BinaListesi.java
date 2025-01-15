@@ -13,7 +13,7 @@ public class BinaListesi extends javax.swing.JFrame {
     DefaultTableModel binaListesiModel = new DefaultTableModel();
     ArrayList<Bina> binalar = Varlik.getBinalar();
 
-    // تعريف المتغيرات
+    // değişkenlerin tanımlanması
     private javax.swing.JTable binaList;
     private javax.swing.JButton jButton6;
     private javax.swing.JScrollPane jScrollPane2;

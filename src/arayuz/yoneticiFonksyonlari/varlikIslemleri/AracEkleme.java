@@ -178,35 +178,35 @@ public class AracEkleme extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        // العودة إلى نافذة VarlikEkGu
+        
         VarlikEkGu varlikekle = new VarlikEkGu();
         varlikekle.setVisible(true);
         setVisible(false);
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void araclistesiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_araclistesiActionPerformed
-        // العودة إلى قائمة المركبات
+        
         AracListesi aracListesi = new AracListesi();
         aracListesi.setVisible(true);
         setVisible(false);
     }//GEN-LAST:event_araclistesiActionPerformed
 
     private void aEkleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aEkleActionPerformed
-        // إضافة المركبة
+        // Aracı ekle
         Yonetici y = new Yonetici();
         y.new EkleGuncelle().aracEkle(this);
         
-        // تحديث عدد المركبات في المنطقة
+        // Bölgedeki araç sayısını güncelle
         int konum = Integer.parseInt((String) aKonum.getSelectedItem());    
         TrafikYonetimi.bolgeler.put(konum, TrafikYonetimi.bolgeler.get(konum) + 1);
     }//GEN-LAST:event_aEkleActionPerformed
 
     private void aracTuruActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aracTuruActionPerformed
-        // لا حاجة لأي أكواد هنا بعد التعديلات
+       
     }//GEN-LAST:event_aracTuruActionPerformed
 
     private void aIsimActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aIsimActionPerformed
-        // لا حاجة لأي أكواد هنا بعد التعديلات
+       
     }//GEN-LAST:event_aIsimActionPerformed
 
     public static void main(String args[]) {

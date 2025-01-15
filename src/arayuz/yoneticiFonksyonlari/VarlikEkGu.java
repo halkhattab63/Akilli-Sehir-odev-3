@@ -9,9 +9,6 @@ import java.awt.Color;
 
 public class VarlikEkGu extends javax.swing.JFrame {
 
-    /**
-     * Creates new form VarlikEkGu
-     */
     public VarlikEkGu() {
         initComponents();
     }
@@ -77,7 +74,7 @@ public class VarlikEkGu extends javax.swing.JFrame {
         customizeButton(arababtn);
         customizeButton(enerjıbtn);
 
-        // Set Layout for the frame
+        // Çerçeve için düzeni ayarla
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
 
@@ -114,14 +111,14 @@ public class VarlikEkGu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        // Go back to the main screen
+        // Ana ekrana geri dön
         ArayuzYonetici yonetici = new ArayuzYonetici();
         yonetici.setVisible(true);
         this.dispose(); // Close current window
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void binabtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_binabtnActionPerformed
-        // Open BinaEkleme screen
+        //BinaEkleme ekranını aç
         BinaEkleme binaEkleme = new BinaEkleme();
         binaEkleme.setVisible(true);
         this.dispose(); // Close current window
@@ -130,7 +127,7 @@ public class VarlikEkGu extends javax.swing.JFrame {
     }//GEN-LAST:event_binabtnActionPerformed
 
     private void arababtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_arababtnActionPerformed
-        // Open AracEkleme screen
+        //AracEkleme ekranını aç
         AracEkleme aracEkleme = new AracEkleme();
         aracEkleme.setVisible(true);
         this.dispose(); // Close current window
@@ -139,7 +136,7 @@ public class VarlikEkGu extends javax.swing.JFrame {
     }//GEN-LAST:event_arababtnActionPerformed
 
     private void enerjıbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enerjıbtnActionPerformed
-        // Open EnerjiKaynagiEkleme screen
+        // EnerjiKaynagiEkleme ekranını aç
         EnerjiKaynagiEkleme enerjiKaynagiEkleme = new EnerjiKaynagiEkleme();
         enerjiKaynagiEkleme.setVisible(true);
         this.dispose(); // Close current window
@@ -151,7 +148,7 @@ public class VarlikEkGu extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
+        /* Nimbus görünüm ve hissiyatını ayarla */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -163,7 +160,7 @@ public class VarlikEkGu extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(VarlikEkGu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
 
-        /* Create and display the form */
+        /* Formu oluştur ve görüntüle */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new VarlikEkGu().setVisible(true);

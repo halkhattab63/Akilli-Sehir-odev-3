@@ -234,11 +234,11 @@ public class AracListesi extends javax.swing.JFrame {
     }
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {
-        // Handle the event for the "Geri" button here
+        // Burada 'Geri' butonu için olayı işleyin
     }
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {
-        // Handle the event for the "Geri" button here
+        // Burada 'Geri' butonu için olayı işleyin
         AracEkleme aracEkleme = new AracEkleme();
         aracEkleme.setVisible(true);
         setVisible(false);

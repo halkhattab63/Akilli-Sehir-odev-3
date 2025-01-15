@@ -6,7 +6,7 @@ import yonetim.TrafikYonetimi;
 
 public class BinaEkleme extends javax.swing.JFrame {
 
-    // تعريف المتغيرات للمكونات
+    // değişkenlerin tanımlanması
     private javax.swing.JComboBox<String> BinaTuru;
     private javax.swing.JButton bEkle;
     private javax.swing.JTextField bIsim;
@@ -234,15 +234,15 @@ public class BinaEkleme extends javax.swing.JFrame {
     }//GEN-LAST:event_bEkleActionPerformed
 
     private void BinaTuruActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BinaTuruActionPerformed
-        // يمكن إضافة كود هنا لمعالجة الاختيارات المتعلقة بنوع المبنى
+
     }//GEN-LAST:event_BinaTuruActionPerformed
 
     private void bIsimActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bIsimActionPerformed
-        // يمكن إضافة كود هنا لمعالجة الإدخال في الاسم
+
     }//GEN-LAST:event_bIsimActionPerformed
 
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
+
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
