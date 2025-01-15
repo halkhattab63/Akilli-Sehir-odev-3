@@ -126,6 +126,7 @@
       </Group>
     </DimensionLayout>
   </Layout>
+
   <SubComponents>
     <Component class="javax.swing.JButton" name="jButton6">
       <Properties>
@@ -136,7 +137,6 @@
       </Events>
     </Component>
     <Container class="javax.swing.JScrollPane" name="jScrollPane2">
-
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
       <SubComponents>
         <Component class="javax.swing.JTable" name="binaList">
@@ -145,9 +145,9 @@
               <Table columnCount="6" rowCount="0">
                 <Column editable="false" title="Isim" type="java.lang.String"/>
                 <Column editable="false" title="Konum" type="java.lang.Integer"/>
-                <Column editable="false" title="Kat say&#x131;s&#x131;" type="java.lang.Integer"/>
-                <Column editable="false" title="Enerji t&#xfc;ketim" type="java.lang.Float"/>
-                <Column editable="false" title="Su t&#xfc;ketimi" type="java.lang.Float"/>
+                <Column editable="false" title="Kat sayısı" type="java.lang.Integer"/>
+                <Column editable="false" title="Enerji tüketim" type="java.lang.Float"/>
+                <Column editable="false" title="Su tüketimi" type="java.lang.Float"/>
                 <Column editable="false" title="Tip" type="java.lang.String"/>
               </Table>
             </Property>
@@ -158,11 +158,10 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JTextField" name="enerjiTuketim">
-    </Component>
+    <Component class="javax.swing.JTextField" name="enerjiTuketim"/>
     <Component class="javax.swing.JButton" name="bGun">
       <Properties>
-        <Property name="text" type="java.lang.String" value="G&#xfc;ncelle"/>
+        <Property name="text" type="java.lang.String" value="Güncelle"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bGunActionPerformed"/>
@@ -175,31 +174,29 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Isim                 :"/>
+        <Property name="text" type="java.lang.String" value="Isim :"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Konum            :"/>
+        <Property name="text" type="java.lang.String" value="Konum :"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Kat say&#x131;s&#x131;         :"/>
+        <Property name="text" type="java.lang.String" value="Kat sayısı :"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="suTuketim">
-    </Component>
-    <Component class="javax.swing.JTextField" name="bKat">
-    </Component>
+    <Component class="javax.swing.JTextField" name="suTuketim"/>
+    <Component class="javax.swing.JTextField" name="bKat"/>
     <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Su t&#xfc;ketim       :"/>
+        <Property name="text" type="java.lang.String" value="Su tüketim :"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Enerji t&#xfc;ketim  :"/>
+        <Property name="text" type="java.lang.String" value="Enerji tüketim :"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="bSil">
@@ -227,7 +224,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="tasMod">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Tasarruf modu &#xe7;al&#x131;&#x15f;t&#x131;r"/>
+        <Property name="text" type="java.lang.String" value="Tasarruf modu çağrılır"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tasModActionPerformed"/>

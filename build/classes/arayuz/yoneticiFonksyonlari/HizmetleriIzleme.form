@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
@@ -6,7 +6,7 @@
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
-    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
   </SyntheticProperties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
@@ -26,7 +26,6 @@
         <Group type="102" alignment="0" attributes="0">
           <EmptySpace max="-2" attributes="0"/>
           <Component id="jButton5" min="-2" max="-2" attributes="0"/>
-          <EmptySpace max="32767" attributes="0"/>
         </Group>
         <Group type="102" alignment="1" attributes="0">
           <EmptySpace min="0" pref="16" max="32767" attributes="0"/>
@@ -113,7 +112,7 @@
       <SubComponents>
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Ara&#xe7; say&#x131;s&#x131;  :"/>
+            <Property name="text" type="java.lang.String" value="Araç sayısı :"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="aracSayi">
@@ -197,7 +196,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Su t&#xfc;ketimi :"/>
+            <Property name="text" type="java.lang.String" value="Su tüketimi :"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel7">
